@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PrimeFlix | Free Movies</title>
+  <style>
+    body {
+      background: #0f172a;
+      color: white;
+      font-family: Arial;
+      margin: 0;
+    }
+    header {
+      background: black;
+      padding: 15px;
+      text-align: center;
+      font-size: 26px;
+      color: #22c55e;
+    }
+    .movies {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .movie {
+      background: #020617;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    iframe {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>🎬 PrimeFlix – Free Legal Movies</header>
+
+<div class="movies">
+
+  <div class="movie">
+    <h3>Night of the Living Dead (1968)</h3>
+    <iframe src="https://archive.org/embed/night_of_the_living_dead"></iframe>
+  </div>
+
+  <div class="movie">
+    <h3>The Kid (1921)</h3>
+    <iframe src="https://archive.org/embed/TheKid1921"></iframe>
+  </div>
+
+  <div class="movie">
+    <h3>Sherlock Holmes (1916)</h3>
+    <iframe src="https://archive.org/embed/sherlock_holmes_1916"></iframe>
+  </div>
+
+</div>
+
+</body>
+</html>
